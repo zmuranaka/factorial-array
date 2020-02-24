@@ -28,7 +28,7 @@ runDriver.cmd
 
 ## Sources:
 
-I wrote all of the code myself. I got the idea from [GeeksforGeeks]https://www.geeksforgeeks.org/factorial-of-an-array-of-integers/.
+I wrote all of the code myself. I got the idea from [GeeksforGeeks](https://www.geeksforgeeks.org/factorial-of-an-array-of-integers/).
 
 ## Author:
 
