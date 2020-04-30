@@ -34,4 +34,4 @@ I wrote all of the code myself. I got the idea from [GeeksforGeeks](https://www.
 
 Zachary Muranaka  
 &nbsp;&nbsp;&nbsp;&nbsp;zacharymuranaka@mail.weber.edu  
-&nbsp;&nbsp;&nbsp;&nbsp;http://icarus.cs.weber.edu/~zm83483/
+&nbsp;&nbsp;&nbsp;&nbsp;https://zmuranaka.github.io

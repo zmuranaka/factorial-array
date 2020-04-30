@@ -12,22 +12,19 @@ public class FactorialArray
         sum[0] = 1; // Initializes the first digit as 1
         
         // The remaining numbers in the array are initialized as -1
-        for(int i = 1; i < sum.length; i++)
-            sum[i] = -1;
+        for(int i = 1; i < sum.length; i++) sum[i] = -1;
         
         index = 0; // Stores the index of the end digit of the sum
         
         // Calculates the factorial by muliplying by 2, 3 ... number
-        for (int n = 2; n <= number; n++)
-            multiply(n);
+        for(int n = 2; n <= number; n++) multiply(n);
     }
 
     // Prints the array
     public void print()
     {
         // Prints in reverse order because the greatest digit is the last in the array
-        for(int i = index; i >= 0; i--)
-            System.out.print(sum[i]);
+        for(int i = index; i >= 0; i--) System.out.print(sum[i]);
     }
 
     private int index;
@@ -36,9 +33,7 @@ public class FactorialArray
     // Multiplies each digit in the array by the supplied multiplier
     private void multiply(int multiplier)
     {
-        for(int j = 0; j <= index; j++)
-            sum[j] *= multiplier;
-        
+        for(int j = 0; j <= index; j++) sum[j] *= multiplier;
         carry(); // Any digit that is 10 or over must be carried
     }
 
