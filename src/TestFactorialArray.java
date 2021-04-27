@@ -6,6 +6,11 @@ Tests the FactorialArray class against 10 example outputs
 
 public class TestFactorialArray
 {
+    /*
+     * The terminal being used will determine whether or not these colors display correctly
+     * In the integrated Visual Studio Code terminal, Windows terminal, and WSL Ubuntu terminal, they display correctly
+     * However, they do not display correctly in Command Prompt or PowerShell
+     */
     private static final String GREEN = "\033[0;32m";
     private static final String RED = "\033[0;31m";
     private static final String RESET = "\033[0m";
@@ -52,7 +57,7 @@ public class TestFactorialArray
         System.out.print(testPassed ? GREEN : RED);
         System.out.println(message + (testPassed ? "Passed" : "Failed"));
 
-        // Show the problem if the test did not pass
+        // Show what was expected and what was actually received if the test did not pass
         if (!testPassed)
         {
             System.out.println("Expected: " + testedAgainst);
