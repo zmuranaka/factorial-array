@@ -8,7 +8,7 @@ public class TestFactorialArray
 {
     /*
      * The terminal being used will determine whether or not these colors display correctly
-     * In the integrated Visual Studio Code terminal, Windows terminal, and WSL Ubuntu terminal, they display correctly
+     * In the integrated Visual Studio Code terminal, Windows Terminal, and WSL Ubuntu terminal, they display correctly
      * However, they do not display correctly in Command Prompt or PowerShell
      */
     private static final String GREEN = "\033[0;32m";
