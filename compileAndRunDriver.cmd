@@ -1,4 +1,4 @@
-:: File: compileAndRun.cmd
+:: File: compileAndRunDriver.cmd
 :: Zachary Muranaka
 :: Compiles the project and runs the Driver class
 

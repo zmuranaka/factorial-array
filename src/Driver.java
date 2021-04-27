@@ -1,8 +1,8 @@
 /*
- * File: Driver.java
- * Zachary Muranaka
- * Allows the user to calculate the factorial of very large numbers using an array
- */
+File: Driver.java
+Zachary Muranaka
+Allows the user to calculate the factorial of very large numbers using an array
+*/
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -31,7 +31,7 @@ public class Driver
             // Constructs a new FactorialArray object using the number provided
             FactorialArray array = new FactorialArray(number);
             System.out.print("The factorial is: ");
-            array.print();
+            System.out.println(array.getProductAsString());
             System.out.println();
         }
         catch(ArrayIndexOutOfBoundsException aiException) // The factorial is more than 100000 digits long
